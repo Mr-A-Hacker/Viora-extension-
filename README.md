@@ -86,6 +86,32 @@ edge://extensions/  →  You should see Viora listed and active ✓
 
 ---
 
+## 📦 ZIP Version Comparison
+
+Choose the version that best fits your needs:
+
+| Version | Summary | Best for |
+|--------|---------|----------|
+| viora-extension-VR-1.zip | Early build with the original structure | Testing the initial experience |
+| viora-extension-VR-2.zip | Slightly improved build with a cleaner package layout | A simple upgrade from VR-1 |
+| viora-extension-VR-3.zip | More updated scripts and broader feature coverage | Users wanting more functionality |
+| viora-extension-VR-4.0.zip | Major upgrade with stronger sidepanel and content logic | A more capable release |
+| viora-extension-VR-4.2.zip | Refined and polished build with updated UI and settings files | Best balance of stability and features |
+| viora-extension-VR-4.3.zip | Latest and most complete build with the newest timestamps and largest package | Recommended choice |
+
+✅ Recommended download: viora-extension-VR-4.3.zip
+
+> If you want a slightly older but still reliable option, choose viora-extension-VR-4.2.zip.
+
+- viora-extension-VR-1.zip — earliest version; smaller and more basic, but good for testing the original layout.
+- viora-extension-VR-2.zip — slightly improved and packaged with a nested folder structure; a bit more complete than VR-1.
+- viora-extension-VR-3.zip — a more updated build with larger script files and better feature coverage than VR-2.
+- viora-extension-VR-4.0.zip — a major upgrade with more advanced sidepanel and content logic than the earlier versions.
+- viora-extension-VR-4.2.zip — newer and more polished than 4.0, with refreshed UI and settings files.
+- viora-extension-VR-4.3.zip — the latest and most complete build, with the newest timestamps and the largest overall package size.
+
+---
+
 ## 🔧 Troubleshooting
 
 | Problem | Solution |
