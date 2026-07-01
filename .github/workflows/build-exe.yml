@@ -7,7 +7,11 @@ name: Build DeskViora.exe
 on:
   push:
     branches: [ main, master ]
+    tags: [ 'v*' ]
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -22,15 +26,24 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
+        working-directory: deskviora
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
       - name: Build the .exe
+        working-directory: deskviora
         run: pyinstaller build.spec
 
-      - name: Upload DeskViora.exe
+      - name: Upload desktop app .exe
         uses: actions/upload-artifact@v4
         with:
-          name: DeskViora-windows
-          path: dist/DeskViora.exe
+          name: deskviora-source.exe
+          path: deskviora/dist/deskviora-source.exe
+
+      - name: Publish Windows executable release asset
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: deskviora/dist/deskviora-source.exe
+          fail_on_unmatched_files: true

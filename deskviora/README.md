@@ -16,7 +16,7 @@ window, via real mouse/keyboard input and screenshots.
 - `main.py` — a minimal Tkinter GUI (goal box, run/stop, settings). You can
   swap this for something fancier later without touching the agent logic.
 - `config.py` — stores your API key locally.
-- `build.spec` — PyInstaller spec to produce a single `DeskViora.exe`.
+- `build.spec` — PyInstaller spec to produce a single `deskviora-source.exe`.
 
 ## Setup
 
@@ -47,14 +47,14 @@ This repo includes `.github/workflows/build-exe.yml`, which builds the
 2. Go to the repo's **Actions** tab. The workflow runs automatically on
    push — or click **Run workflow** to trigger it manually.
 3. When it finishes (a couple of minutes), open the completed run and
-   download the **DeskViora-windows** artifact — that's your `.exe`, built
+   download the **deskviora-source.exe** artifact — that's your `.exe`, built
    on a real Windows machine, ready to run.
 
 ### Option B — you have access to a Windows machine/VM
 1. Copy this folder over.
 2. `pip install -r requirements.txt`
 3. `pyinstaller build.spec`
-4. Your executable is at `dist/DeskViora.exe` — a single file, no install
+4. Your executable is at `dist/deskviora-source.exe` — a single file, no install
    needed, no console window behind the GUI.
 
 ## Safety notes — read this before running it unattended
