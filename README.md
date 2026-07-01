@@ -28,13 +28,13 @@ Follow these steps carefully to install the Viora Extension manually in Microsof
 
 ---
 
-### Step 1 — Choose Your Model & Download
+### Step 1 — Choose Your Model Pack & Download
 
 1. Go to the **[Releases Page](https://github.com/Mr-A-Hacker/Viora-extension-/releases)**
-2. Pick the model version that suits your needs
+2. Pick the model package that suits your needs
 3. Click the `.zip` file to download it
 
-> 💡 **Tip:** Not sure which model to pick? Start with the latest stable release at the top of the list.
+> 💡 **Tip:** For most users, the recommended choice is the most complete release in the list below.
 
 ---
 
@@ -71,7 +71,7 @@ Once downloaded, extract the `.zip` file:
 
 1. Click the **"Load unpacked"** button that appears after enabling Developer mode
 2. A file browser will open — navigate to the folder you extracted in Step 2
-3. Select the **model folder** (the root folder of the extracted extension)
+3. Select the **model package folder** (the root folder of the extracted extension)
 4. Click **Select Folder**
 
 ---
@@ -86,29 +86,31 @@ edge://extensions/  →  You should see Viora listed and active ✓
 
 ---
 
-## 📦 ZIP Version Comparison
+## 📦 Model Pack Overview
 
-Choose the version that best fits your needs:
+Each ZIP file in this repository is a packaged Viora extension build. They are organized by release stage so you can choose the one that fits your setup best.
 
-| Version | Summary | Best for |
+| Model package | What it is | Best for |
 |--------|---------|----------|
-| viora-extension-VR-1.zip | Early build with the original structure | Testing the initial experience |
-| viora-extension-VR-2.zip | Slightly improved build with a cleaner package layout | A simple upgrade from VR-1 |
-| viora-extension-VR-3.zip | More updated scripts and broader feature coverage | Users wanting more functionality |
-| viora-extension-VR-4.0.zip | Major upgrade with stronger sidepanel and content logic | A more capable release |
-| viora-extension-VR-4.2.zip | Refined and polished build with updated UI and settings files | Best balance of stability and features |
-| viora-extension-VR-4.3.zip | Latest and most complete build with the newest timestamps and largest package | Recommended choice |
+| Viora-Model-01-Legacy.zip | The earliest release with the original structure. | Testing the first experience or using an older build. |
+| Viora-Model-02-Improved.zip | A small step forward with a cleaner layout and better packaging. | Users who want a simple upgrade from the old build. |
+| Viora-Model-03-Expanded.zip | A more feature-rich build with broader script coverage. | People who want more functionality without moving to the newer 4.x line. |
+| Viora-Model-04.0-Core.zip | The first major 4.x release with stronger sidepanel and content logic. | Users wanting a more capable foundation. |
+| Viora-Model-04.2-Polished.zip | A refined 4.x build with updated UI and settings structure. | Best balance of stability and polish. |
+| Viora-Model-04.3-Complete.zip | The most complete and latest general-purpose release in the main line. | Recommended choice for most users. |
+| Viora-Model-04.4-Styled.zip | A styled variant of the newer 4.x family with visual refinements. | Users who want a more polished presentation. |
+| Viora-Model-04.5-Styled.zip | A later styled release with continued cleanup and presentation updates. | Those who prefer the newest visual styling. |
+| Viora-Model-04.6-Styled.zip | The newest styled package in the lineup. | Users who want the latest packaged appearance and layout. |
 
-✅ Recommended download: viora-extension-VR-4.3.zip
+✅ Recommended download: Viora-Model-04.3-Complete.zip
 
-> If you want a slightly older but still reliable option, choose viora-extension-VR-4.2.zip.
+> If you want a slightly older but still reliable option, choose Viora-Model-04.2-Polished.zip.
 
-- viora-extension-VR-1.zip — earliest version; smaller and more basic, but good for testing the original layout.
-- viora-extension-VR-2.zip — slightly improved and packaged with a nested folder structure; a bit more complete than VR-1.
-- viora-extension-VR-3.zip — a more updated build with larger script files and better feature coverage than VR-2.
-- viora-extension-VR-4.0.zip — a major upgrade with more advanced sidepanel and content logic than the earlier versions.
-- viora-extension-VR-4.2.zip — newer and more polished than 4.0, with refreshed UI and settings files.
-- viora-extension-VR-4.3.zip — the latest and most complete build, with the newest timestamps and the largest overall package size.
+### Quick recommendations
+- Want the original experience: Viora-Model-01-Legacy.zip
+- Want a simple upgrade: Viora-Model-02-Improved.zip
+- Want more features: Viora-Model-03-Expanded.zip
+- Want the best all-around choice: Viora-Model-04.3-Complete.zip
 
 ---
 
